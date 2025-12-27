@@ -1,8 +1,12 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --background-gray-50: #f9fafb;
+  --background-gray-100: #f3f4f6;
+  --background-gray-200: #e5e7eb;
+  --background-white: #ffffff;
 }
 
 @theme inline {
@@ -16,11 +20,62 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --background-gray-50: #1f1f1f;
+    --background-gray-100: #2a2a2a;
+    --background-gray-200: #3a3a3a;
+    --background-white: #0a0a0a;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.bg-section-white {
+  background-color: var(--background-white);
+}
+
+.bg-section-gray-50 {
+  background-color: var(--background-gray-50);
+}
+
+.bg-section-gray-100 {
+  background-color: var(--background-gray-100);
+}
+
+.bg-section-gray-200 {
+  background-color: var(--background-gray-200);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll 30s linear infinite;
+  will-change: transform;
+  gap: 2rem;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+
+@media (min-width: 768px) {
+  .animate-scroll {
+    gap: 3rem;
+  }
 }
