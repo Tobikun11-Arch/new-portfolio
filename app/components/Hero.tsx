@@ -23,7 +23,7 @@ export default function Hero() {
               Hey, I'm a
             </h4>
             <h1 className="text-6xl lg:text-8xl font-bold text-white leading-tight">
-              Web,
+              Web
               <br />
               Developer
             </h1>
@@ -56,7 +56,7 @@ export default function Hero() {
               #02 <br />
             </span>{' '}
             <span className="text-white text-base lg:text-lg font-medium">
-              UI/UX & Branding
+              SEO Optimization
             </span>
           </div>
           <div className="text-white">
@@ -72,7 +72,7 @@ export default function Hero() {
               #04 <br />
             </span>{' '}
             <span className="text-white text-base lg:text-lg font-medium">
-              Creative Direction
+              Technical Troubleshooting
             </span>
           </div>
         </div>
