@@ -1,11 +1,11 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Technologies from './components/Technologies';
-import Portfolio from './components/Portfolio';
+import Works from './components/Works';
 import Services from './components/Services';
 import Process from './components/Process';
-import Specializations from './components/Specializations';
 import Footer from './components/Footer';
+import Portfolio from './components/Portfolio';
 
 export default function Home() {
   return (
@@ -13,10 +13,10 @@ export default function Home() {
       <Header />
       <Hero />
       <Technologies />
-      <Portfolio />
       <Services />
+      <Works />
       <Process />
-      <Specializations />
+      <Portfolio />
       <Footer />
     </main>
   );

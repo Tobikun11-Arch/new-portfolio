@@ -53,16 +53,10 @@ export default function Header() {
             Process
           </Link>
           <Link
-            href="#about"
+            href="#portfolio"
             className="text-white/80 hover:text-[#FF6B35] transition-colors text-sm font-medium"
           >
-            About
-          </Link>
-          <Link
-            href="#contact"
-            className="text-white/80 hover:text-[#FF6B35] transition-colors text-sm font-medium"
-          >
-            Contact
+            Portfolio
           </Link>
         </div>
 

@@ -156,6 +156,131 @@ const technologies: Technology[] = [
     name: 'Prisma',
     icon: <Gem className="w-12 h-12" />,
     tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Next.js',
+    icon: <Zap className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Express.js',
+    icon: <Server className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'MongoDB',
+    icon: <Database className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Tailwind CSS',
+    icon: <Palette className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Figma',
+    icon: <FileCode className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'GitHub',
+    icon: <Github className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'PostgreSQL',
+    icon: <Database className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Vercel',
+    icon: <Layers className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Java',
+    icon: <Coffee className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'HTML5',
+    icon: <Globe className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'CSS3',
+    icon: <Palette className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'JavaScript',
+    icon: <Brackets className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'React',
+    icon: <Atom className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Axios',
+    icon: <Network className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'TypeScript',
+    icon: <Type className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Vite',
+    icon: <Bolt className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Svelte',
+    icon: <Box className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Go',
+    icon: <Terminal className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Node.js',
+    icon: <Cpu className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'NestJS',
+    icon: <Layers className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'MySQL',
+    icon: <Database className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Firebase',
+    icon: <Flame className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'GraphQL',
+    icon: <Workflow className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Jira',
+    icon: <CheckSquare className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
+  },
+  {
+    name: 'Prisma',
+    icon: <Gem className="w-12 h-12" />,
+    tooltip: 'Used in 10+ projects'
   }
 ];
 
